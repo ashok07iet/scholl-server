@@ -1,0 +1,23 @@
+{
+  "name": "school-server",
+  "version": "1.0.0",
+  "description": "school management server",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "debug":"nodemon --inspect src/server.js"
+  },
+  "author": "ashol",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-livereload": "0.0.24",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0",
+    "swagger-ui-express": "^4.1.4",
+    "winston": "^3.2.1"
+  }
+}
